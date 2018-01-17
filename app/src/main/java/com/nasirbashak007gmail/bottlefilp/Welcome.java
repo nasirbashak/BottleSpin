@@ -3,6 +3,7 @@ package com.nasirbashak007gmail.bottlefilp;
 import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.view.animation.AccelerateDecelerateInterpolator;
 import android.view.animation.RotateAnimation;
@@ -13,7 +14,7 @@ import android.widget.ImageView;
  * Created by Nasir Basha K on 04-01-2018.
  */
 
-public class Welcome extends Activity {
+public class Welcome extends AppCompatActivity {
 
     Button start;
     ImageView imageView,imageView2;
